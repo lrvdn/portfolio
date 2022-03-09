@@ -1,0 +1,42 @@
+.accueil h1{
+    font-family: Gza, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 2%;
+}
+.accueil h2{
+    font-family: Gza, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.accueil h1 h2{
+    line-height: 50%;
+
+}
+
+.accueil ul li a{
+    writing-mode: vertical-rl;
+    text-decoration:none ;
+    margin: 0;
+    padding: 0;
+}
+.accueil ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/patrick-hendry-37ZuGYD3JOk-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    height: 550px
+}
