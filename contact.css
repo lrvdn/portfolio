@@ -66,4 +66,40 @@ p{
 
 .contact ul li a{
     writing-mode: vertical-rl;
+    text-decoration:none ;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.contact ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.un{
+    font-family: TitilliumText22L serif;
+    font-size: 1.5rem;
+    color: black;
+    position: relative;
+    top: 160px;
+    left: -30px;
+    padding: 0;
+    margin: 0;
+    transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -khtml-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+}
+
+.deux{
+    font-family: TitilliumText22L serif;
+    font-size: 1.5rem;
+    color: black;
+    text-align: left;
+    position: relative;
+    top: 40px;
+    left: 96%;
+
 }

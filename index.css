@@ -10,13 +10,8 @@
 .accueil h2{
     font-family: Gza, serif;
     text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-.accueil h1 h2{
-    line-height: 50%;
-
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .accueil ul li a{
@@ -31,12 +26,48 @@
     padding: 0;
 }
 
+.un{
+    font-family: TitilliumText22L serif;
+    font-size: 1.5rem;
+    color: black;
+    position: relative;
+    top: 160px;
+    left: -30px;
+    padding: 0;
+    margin: 0;
+    transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -khtml-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+}
+
+.deux{
+    font-family: TitilliumText22L serif;
+    font-size: 1.5rem;
+    color: black;
+    text-align: left;
+    position: relative;
+    top: 40px;
+    left: 96%;
+
+}
+
+
+.ionicon{
+    position: relative;
+    height: 64px;
+    width: 64px;
+    left: 47%;
+    top: 330px;
+    color: darkgray;
+}
 body {
     background-image: url(img/patrick-hendry-37ZuGYD3JOk-unsplash.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1920px;
     background-color: black;
     width: 100%;
-    height: 550px
+    height: 550px;
 }
