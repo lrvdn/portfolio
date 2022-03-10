@@ -70,10 +70,17 @@ body {
     float: right;
     margin-right: 130px;
     margin-top: 150px;
+    width: 300px;
+}
+
+main{
+    margin: 0;
+    padding: 0;
 }
 
 .p1, .p2, .p3{
-    font-size: 30px;
+    font-family: TitilliumText22L, serif;
+    font-size: 1.5rem;
     padding: 10px;
     margin-left: 100px;
     width: 1100px ;
@@ -86,9 +93,11 @@ body {
 }
 
 h3{
-    font-size: 60px;
+    font-size: 3rem;
+    font-family: Gza, serif;
+    font-style: italic;
     padding: 0;
-    margin-top: 180px;
+    margin-top: -180px;
     margin-left: 100px;
     color: white;
 }

@@ -6,13 +6,22 @@
     margin: 0;
     padding: 0;
     padding-top: 2%;
+    position: absolute; /* postulat de départ */
+    top: 35%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-45%, -50%); /* décalage de 50% de sa propre taille */
+
 }
 .accueil h2{
     font-family: Gza, serif;
     text-align: center;
     margin-top: 0;
     padding-top: 0;
+    position: absolute; /* postulat de départ */
+    top: 43%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+
 }
+
 
 .accueil ul li a{
     writing-mode: vertical-rl;
@@ -31,7 +40,7 @@
     font-size: 1.5rem;
     color: black;
     position: relative;
-    top: 160px;
+    top: 300px;
     left: -30px;
     padding: 0;
     margin: 0;
@@ -48,7 +57,7 @@
     color: black;
     text-align: left;
     position: relative;
-    top: 40px;
+    top: 200px;
     left: 96%;
 
 }
@@ -58,8 +67,8 @@
     position: relative;
     height: 64px;
     width: 64px;
-    left: 47%;
-    top: 330px;
+    left: 50%;
+    top: 450px;
     color: darkgray;
 }
 body {
