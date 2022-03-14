@@ -15,25 +15,40 @@
 </header>
 <body>
 <div class="container">
-    <form action="action_page.php">
 
-        <label for="fname"></label>
-        <input type="text" id="fname" name="firstname" placeholder="Nom">
+    <div class="droit">
+    
+    <img class="contactezmoi" src="img/contact-img.png" alt="#">
 
-        <label for="lname"></label>
-        <input type="text" id="lname" name="lastname" placeholder="Prénom">
+    </div>
+    <div class="gauche">
 
-        <label for="subject"></label>
-        <textarea id="subject" name="subject" placeholder="Dites-moi tout !" style="height:200px"></textarea>
+
+        <form action="traitement.php" method="post">
+
+        <label for="nom"></label>
+        <input type="text" id="nom" name="nom" placeholder="Nom">
+
+        <label for="prenom"></label>
+        <input type="text" id="prenom" name="prenom" placeholder="Prénom">
+
+        <label for="mail"></label>
+        <input type=email id="mail" name="mail" placeholder="Adresse e-mail">
+
+        <label for="message"></label>
+        <textarea id="message" name="message" placeholder="Dites-moi tout !" style="height:200px"></textarea>
 
         <input type="submit" value="Envoyer">
 
     </form>
+
+    </div>
 </div>
-    <p>Cette page sert de lien entre vous et moi, alors si vous avez envie de développer votre marque, besoin d'une communiquante,
-    une question ou juste une remarque.
-    </p>
-    <p>N'hésitez plus !
-    </p>
 </body>
+<style>
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+</style>
 </html>

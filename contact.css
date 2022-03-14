@@ -1,35 +1,59 @@
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 50%; /* Full width */
+    position: relative;
+    margin-left: 130px;
+    width: 40%; /* Full width */
     padding: 12px; /* Some padding */
+    background-color: white;
+    opacity: 50%;
+    font-family:Gza, serif ;
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
+    top: -120px;
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
-
+input[type=email], select, textarea {
+    position: relative;
+    margin-left: 130px;
+    width: 40%; /* Full width */
+    padding: 12px; /* Some padding */
+    background-color: white;
+    opacity: 50%;
+    font-family:Gza, serif ;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    top: -120px;
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+.gauche form #lname{
+    color: #000;
+}
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
     background-color: white;
+    font-family: Gza, serif ;
+    font-weight: normal;
     color: black;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    position: relative;
+    margin-left: 130px;
+    top: -110px;
+    width: 40%;
 }
-
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
     background-color: gray;
 }
-
 /* Add a background color and some padding around the form */
-.container {
-    border-radius: 5px;
-    padding: 20px;
-}
 
 body {
     background-image: url(img/sorin-sirbu-84YkIGTkuBI-unsplash.jpg);
@@ -57,11 +81,6 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-}
-p{
-    font-family: TitilliumText22L, serif;
-    color: white;
-
 }
 
 .contact ul li a{
@@ -99,7 +118,14 @@ p{
     color: black;
     text-align: left;
     position: relative;
-    top: 40px;
+    top: 50px;
     left: 96%;
 
+}
+
+img.contactezmoi{
+    float: right;
+    margin-right: 60px;
+    width: 550px;
+    margin-top: -200px;
 }
