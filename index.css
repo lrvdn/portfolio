@@ -21,8 +21,6 @@
     transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
 
 }
-
-
 .accueil ul li a{
     writing-mode: vertical-rl;
     text-decoration:none ;
@@ -34,7 +32,6 @@
     margin: 0;
     padding: 0;
 }
-
 .un{
     font-family: TitilliumText22L serif;
     font-size: 1.5rem;
@@ -50,7 +47,6 @@
     -khtml-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
 }
-
 .deux{
     font-family: TitilliumText22L serif;
     font-size: 1.5rem;
@@ -61,13 +57,11 @@
     left: 96%;
 
 }
-
-
 .ionicon{
     position: relative;
     height: 64px;
     width: 64px;
-    left: 50%;
+    left: 47%;
     top: 450px;
     color: darkgray;
 }
@@ -78,5 +72,31 @@ body {
     background-size: 1920px;
     background-color: black;
     width: 100%;
-    height: 550px;
+    height: 500px;
+}
+.projet1{
+    position: relative;
+    top:30vw;
+    left: 15vw;
+    padding-bottom: 5vw;
+}
+p{
+    background: rgba(255, 255, 255, 0.58);
+    padding: 1.5% 1% 5% 47%;
+    border-radius: 10px;
+    width: 20%;
+    font-family: TitilliumText22L, serif ;
+    font-size: 1.5rem;
+    color:white;
+}
+.projet1 img{
+    align-items: center;
+    width: 40%;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    position: absolute;
 }

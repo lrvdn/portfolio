@@ -17,7 +17,6 @@ body {
     padding: 0;
     padding-top: 2%;
 }
-
 .about h2{
     color: #FFFFFF;
     font-family: Gza, serif;
@@ -25,7 +24,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .about ul li a{
     writing-mode: vertical-rl;
     text-decoration:none ;
@@ -54,7 +52,6 @@ body {
     -khtml-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
 }
-
 .deux{
     font-family: TitilliumText22L serif;
     font-size: 1.5rem;
@@ -65,19 +62,16 @@ body {
     left: 96%;
 
 }
-
 .image-photo{
     float: right;
     margin-right: 130px;
     width: 350px;
     margin-top: -50px;
 }
-
 main{
     margin: 0;
     padding: 0;
 }
-
 .p1, .p2, .p3{
     font-family: TitilliumText22L, serif;
     font-size: 1.5rem;
@@ -87,11 +81,9 @@ main{
     color: white;
 
 }
-
 .p1{
     margin-top: 50px;
 }
-
 h3{
     font-size: 3rem;
     font-family: Gza, serif;
@@ -101,9 +93,6 @@ h3{
     margin-left: 150px;
     color: white;
 }
-
-
-
 .reseaux{
     width: 40px;
 
