@@ -89,7 +89,7 @@ body {
     padding: 0;
 }
 .un{
-    font-family: TitilliumText22L serif;
+    font-family: TitilliumText22L, serif;
     font-size: 1.5rem;
     color: black;
     position: relative;
@@ -104,7 +104,7 @@ body {
     -ms-transform: rotate(-180deg);
 }
 .deux{
-    font-family: TitilliumText22L serif;
+    font-family: TitilliumText22L, serif;
     font-size: 1.5rem;
     color: black;
     text-align: left;
@@ -118,4 +118,15 @@ img.contactezmoi{
     margin-right: 60px;
     width: 550px;
     margin-top: -200px;
+}
+
+.footer-reseaux-sociaux a img,.footer-reseaux-sociaux a{
+    contain: content;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 1px 0 1px;
+    padding: 0;
+    right: -640px;
+    top: 175px;
 }

@@ -38,7 +38,7 @@ body {
 
 }
 .un{
-    font-family: TitilliumText22L serif;
+    font-family: TitilliumText22L, serif;
     font-size: 1.5rem;
     color: black;
     position: relative;
@@ -53,7 +53,7 @@ body {
     -ms-transform: rotate(-180deg);
 }
 .deux{
-    font-family: TitilliumText22L serif;
+    font-family: TitilliumText22L, serif;
     font-size: 1.5rem;
     color: black;
     text-align: left;
