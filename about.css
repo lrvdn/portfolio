@@ -93,8 +93,14 @@ h3{
     margin-left: 150px;
     color: white;
 }
-.reseaux{
-    width: 40px;
-
-
+.footer-reseaux-sociaux>a>img,.footer-reseaux-sociaux>a{
+    contain: content;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top:10px;
+    left:78px;
+    margin: 0 1px 0 1px;
+    padding: 0;
+    text-align: right;
 }
