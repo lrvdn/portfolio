@@ -1,4 +1,3 @@
-
 .accueil h1{
     font-family: Gza, serif;
     font-size: 3rem;
@@ -103,4 +102,5 @@ p{
 }
 .projet1 h2{
     color: #FFFFFF;
+    padding-top: 30px;
 }

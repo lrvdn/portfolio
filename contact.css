@@ -119,7 +119,6 @@ img.contactezmoi{
     width: 550px;
     margin-top: -200px;
 }
-
 .footer-reseaux-sociaux a img,.footer-reseaux-sociaux a{
     contain: content;
     position: relative;
@@ -128,5 +127,5 @@ img.contactezmoi{
     margin: 0 1px 0 1px;
     padding: 0;
     right: -640px;
-    top: 175px;
+    top: 148px;
 }
