@@ -1,0 +1,68 @@
+body {
+    background-image: url(img/fabian-irsara-_SwLdgVGfVY-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    height: 550px
+}
+.tiktok h1{
+    color: black;
+    font-family: Gza, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 2%;
+}
+.tiktok h2{
+    color: black;
+    font-family: Gza, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.tiktok ul li a{
+    writing-mode: vertical-rl;
+    text-decoration:none ;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.tiktok ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.un{
+    font-family: TitilliumText22L, serif;
+    font-size: 1.5rem;
+    color: white;
+    position: relative;
+    top: 280px;
+    left: -30px;
+    padding: 0;
+    margin: 0;
+    transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -khtml-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+}
+.deux{
+    font-family: TitilliumText22L, serif;
+    font-size: 1.5rem;
+    color: white;
+    text-align: left;
+    position: relative;
+    top: 160px;
+    left: 96%;
+
+}
+body {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
